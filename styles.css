@@ -1,0 +1,210 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+#title {
+    background-color: #EB455F;
+    color: #fff;   
+    height: 40rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+
+
+.container-fluid {
+    padding: 2% 15% 0;
+}
+
+
+/* Navigation Bar  */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+
+/* Download Button  */
+
+.download-button {
+    margin: 10px 20px 0 0;
+}
+
+
+/* Title Image  */
+
+
+.doggo {
+    transform: rotate(25deg);
+    width: 60%;
+    margin-left: 10%;
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.feature-icon {
+    color: #FF597B;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #EB455F;
+}
+
+
+h3 {
+    font-weight: 700;
+}
+
+#features p {
+    color: #8f8f8f;
+    padding: 0 15%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #FF597B;
+    color: #fff;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    border: 2px solid #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+    background-color: #FF597B;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.press-img {
+    width: 15%;
+    margin: 15px 15px 50px;
+}
+
+
+/* Pricing */
+
+
+
+
+
+/* Call to Action  */
+
+#cta {
+    text-align: center;
+    margin-top: 5rem;
+    padding: 7% 15%;
+    background-color: #EB455F;
+    padding-top: 5rem;
+    color: #fff;
+
+}
+
+#cta h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+
+}
+
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    margin-top: 7rem;
+    padding-bottom: 1rem;
+    
+}
+
+.footer-link {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    color: #EB455F;
+}
+
+
+#footer p {
+    color: #8f8f8f;
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+/* ------ CSS Media Queries ------ */
+
+
+@media (max-width:1008px) {
+
+    #title {
+        height: auto;
+    }
+
+    #title h1 {
+        text-align: center;
+    }
+
+    .doggo {
+        
+        transform: rotate(0);  /* we can also put -25 degrees as mentioned in above class, but 0 degree means vertical. */
+        margin: 0;
+    }
+}
+
+
+
+
+
+
